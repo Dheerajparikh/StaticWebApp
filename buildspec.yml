@@ -1,1 +1,12 @@
-echo "Tesing"
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Instaling Test"
+  build:
+    commands:
+      - echo "Building Test"
+artifacts:
+  files:
+    - '**/*'
